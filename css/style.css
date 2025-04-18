@@ -364,3 +364,21 @@ body {
         font-size: 20px;
     }
 }
+.logo-image {
+    height: 50px; /* This will maintain the aspect ratio */
+    width: auto;
+    display: block;
+    padding: 5px 0; /* Adds some space above and below */
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+/* If you need to adjust the navbar height to accommodate the logo */
+.navbar .container {
+    height: 70px; /* Adjust if needed */
+    display: flex;
+    align-items: center;
+}
