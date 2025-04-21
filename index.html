@@ -22,12 +22,16 @@
             display: block;
             max-width: 300px; /* Adjust the size of the app icon */
             height: auto;
-            margin: 20px 0 0; /* Remove auto centering, align with hero-content */
+            margin: 20px 0 0; /* Align with hero-content */
         }
         @media (max-width: 768px) {
             .app-icon {
                 margin-left: -10px; /* Shift slightly to the left in mobile view */
             }
+        }
+        .app-store-button img {
+            height: 50px; /* Match existing style.css height */
+            width: auto; /* Preserve aspect ratio */
         }
     </style>
 </head>
@@ -79,7 +83,7 @@
                     <p>Share your timer configurations with colleagues or export them for later use.</p>
                 </div>
                 <div class="feature-card">
-                    <hfield>Beautiful Design</h3>
+                    <h3>Beautiful Design</h3>
                     <p>Clean, intuitive interface designed for professionals.</p>
                 </div>
                 <div class="feature-card">
@@ -95,7 +99,7 @@
             <h2>Download Praxen Timer</h2>
             <p>Available on the App Store</p>
             <a href="#" class="app-store-button">
-                <img src="images/app-store-badge.svg" alt="Download on the App Store">
+                <img src="images/applestore.png" alt="Download on the App Store">
             </a>
         </div>
     </section>
