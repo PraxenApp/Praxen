@@ -22,7 +22,12 @@
             display: block;
             max-width: 300px; /* Adjust the size of the app icon */
             height: auto;
-            margin: 20px auto 0; /* Center the image and add spacing above */
+            margin: 20px 0 0; /* Remove auto centering, align with hero-content */
+        }
+        @media (max-width: 768px) {
+            .app-icon {
+                margin-left: -10px; /* Shift slightly to the left in mobile view */
+            }
         }
     </style>
 </head>
@@ -74,7 +79,7 @@
                     <p>Share your timer configurations with colleagues or export them for later use.</p>
                 </div>
                 <div class="feature-card">
-                    <h3>Beautiful Design</h3>
+                    <hfield>Beautiful Design</h3>
                     <p>Clean, intuitive interface designed for professionals.</p>
                 </div>
                 <div class="feature-card">
